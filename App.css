@@ -1,0 +1,196 @@
+/* .App {
+  text-align: center;
+  /* background: rgb(7, 158, 199); */
+/* } */ */
+/* body{
+  background-color: rgb(42, 54, 222);
+  width: 100%;
+ height: 100%;
+} */
+.App{
+  width: 100%;
+  height: 100vh;
+  color: red;
+  background-color: rgb(0, 115, 255);
+}
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.
+
+.App-header {
+  background-color: #114cc3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(188, 9, 9);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body
+{
+  background-color: rgb(140, 74, 206);
+}
+
+.container
+{
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+/* .cal
+{
+  padding: 50px;
+  border-radius: 12px;
+  background-color: rgb(179, 195, 245);
+
+} */
+form input
+{
+  border: none;
+  outline: 0;
+  height: 60px;
+  width: 80px;
+  background-color: rgb(216, 243, 67);
+  font-size: 15px;
+  margin: 2px;
+  border-radius: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+form input .text
+{
+  width: 300px;
+  background-color: red;
+}
+
+form input[type="button"]:hover{
+  background-color: rgb(121, 41, 202);
+}
+
+.form .data{
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 10px;
+
+}
+.form .data .input
+{
+  flex: 1;
+  text-align: right;
+}
+
+/* .data{
+  background-color: red;
+} */
+
+#write{
+ width: 230px;
+ font-size: 18px;
+ background-color: rgb(217, 195, 165);
+}
+
+.content
+{
+
+  top: 600px;
+}
+
+
+/* this is main */
+
+.main
+{
+  background-color: rgb(15, 162, 202);
+}
+
+body{
+  background-color: rgb(20, 88, 207);
+}
+/* This is the animation code */
+
+.type {
+  font-size: 50px;
+  color: rgb(244, 208, 5);
+  display:inline-block;
+  vertical-align: bottom;
+}
+
+.type > span {
+  display:grid;
+  overflow: hidden;
+  height:1.2em;
+}
+
+.type span span {
+  width:0%;
+  max-width:max-content;
+  overflow: hidden;
+  height:inherit;
+  word-break:break-all;
+  animation:
+    c 0.5s infinite steps(1),  
+    t 2s linear infinite alternate,
+    m 12s steps(3) infinite;
+}
+.type span span:before {
+  content:" ";
+  display:inline-block;
+}
+
+@keyframes t{
+  90%,100% {width:100%}
+}
+
+@keyframes c{
+  0%,100%{box-shadow:5px 0 0 #e505c000}
+  50%    {box-shadow:5px 0 0 red  }
+}
+
+@keyframes m{
+  100% {transform:translateY(-300%)}
+}
+
+/* Now adjust heading of animation */
+
+
+
+.name{
+   padding-right: 50px;
+   position: relative;
+   text-align: right;
+   font-size: 29px;
+   justify-content: right;
+   left:  100px;
+   color: red;
+   font-weight: 700;
+}
