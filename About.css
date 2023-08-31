@@ -1,0 +1,78 @@
+
+body{
+    background-color: rebeccapurple;
+  }
+  .App{
+    color: red;
+    background-color: aqua;
+  }
+  .email-form
+  {
+    text-align: right;
+  }
+  .password-form
+  {
+    text-align: right;
+  } 
+
+  /* for login title
+   */
+   .Login{
+    text-align: right;
+   }
+    .cont
+    {
+      /* width: 500px;
+      height: 500px;
+      background-color: wheat; */
+    }
+  
+  
+  
+   
+  /* Now adjust heading of animation */
+  
+  
+
+
+
+  .btn 
+  {
+    
+    padding-right:30px ;
+    display: inline-block;
+    
+  }
+  
+  label
+  {
+    color: black;
+    font-weight: 600;
+    padding: 20px;
+  }
+
+  .check-box
+  {
+    padding-right: 18px;
+    
+
+  }
+
+  /* for Adjusting connection button */
+
+  .Connection
+  {
+   
+    position: relative;
+    justify-content: right;
+    text-decoration: none;
+    padding-left: 600px;
+    top: 145px;
+  } 
+
+
+  .Connection a{
+       font-weight: 600;
+       text-align: right;
+       
+  }
